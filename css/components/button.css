@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.button1 {
+    background-color: #82F5B2;
+    display: inline-block;   
+    padding: 20px;   
+    box-shadow: 5px 5px 0 black;   
+    justify-content: center;
+    position: absolute;
+    width: 150px;
+    left: 185px;
+    top: 418px;
+    text-align: center;
+    transition: transform 100ms linear;
+    color: #201F36;
+}
+
+.button2 {
+    background-color: #82F5B2;
+    display: inline-block;   
+    padding: 20px;   
+    box-shadow: 5px 5px 0 black;   
+    justify-content: center;
+    position: absolute;
+    width: 150px;
+    left: 463px;
+    top: 418px; 
+    text-align: center;
+    transition: transform 100ms linear;
+    color: #201F36;
+}
+
+.button1:hover, .button2:hover {
+    transform: scale(1.03);
+}
