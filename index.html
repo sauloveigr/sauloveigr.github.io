@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="css/components/action.css">
     <link rel="stylesheet" href="css/components/banner.css">
     <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/title.css">   
+    <link rel="stylesheet" href="css/components/main-title.css">   
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/skill-tec.css">
     
 </head>
 <body class="body">
@@ -38,7 +39,7 @@
     <section class="banner">
         <div class="wrapper"> <!-- div para "embrulhar"/envolver -->
             <div class="box">
-                <h1 class="title">Saulo Veiga</h1> <!-- heading 1 -->
+                <h1 class="main-title">Saulo Veiga</h1> <!-- heading 1 -->
                 <h2 class="subtitle">FrondEnd Developer</h2>
             </div>
             <div class="navigation">
@@ -49,7 +50,19 @@
     </section>
 
     <section class="section">
-        <h2 class="title -second">Skills</h2> <!-- -second = variação de um componente (title) -->
+        <h2 class="main-title -second">Skills</h2> <!-- -second = variação de um componente (title) -->
+
+        <dl class="skill-tec"> <!-- description list -->
+            <dt class="title">HTML</dt> <!-- description title -->
+            <dd class="icon"> <!-- define description -->
+                <img src="img/ico_html5.png" alt="Logo HTML5 em pixel art">
+            </dd> 
+            <dd  class="bar">
+                <progress value="30" max="100"> <!-- barra de progresso -->
+                    30%
+                </progress>
+            </dd>
+        </dl>
     </section>
 </body>
 </html>
