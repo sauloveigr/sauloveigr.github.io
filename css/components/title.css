@@ -6,8 +6,7 @@
 }
 
 .title.-second {  /* sem espaço, pois espaço é seletor filho. sem espaço = pegas elemento com as duas classes */
-    color: white;
+    color: black;
     text-shadow: none;
     text-align: center;
-    margin-top: 50px;
 }
