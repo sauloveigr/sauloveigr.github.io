@@ -20,5 +20,5 @@
 }
 
 .action:hover {
-    transform: scale(1.03);
+    transform: translateY(-2px);
 }
