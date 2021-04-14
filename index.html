@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="css/components/section.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/text-skill.css">
     
 </head>
 <body class="body">
@@ -53,15 +55,50 @@
     <section class="section">
         <h2 class="main-title -second">Skills</h2> <!-- -second = variação de um componente (title) -->
 
-        <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
-            <img class="icon" src="img/ico_html5.png" alt="Logo HTML5 em pixel art">
-            <div class="right">
-                <h3 class="title">HTML</h3> <!-- description title -->           
-                <progress class="progress-bar" max="100" value="30">
-                    30%
-                </progress>
-            </div>    
-        </article>
+        <div class="wrapper-skill"> <!-- envolver skills -->
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
+                <img class="icon" src="img/ico_html5.png" alt="Logo HTML5 em pixel art">
+                <div class="right">
+                    <h3 class="title">HTML</h3> <!-- description title -->           
+                    <progress class="progress-bar" max="100" value="30">
+                        30%
+                    </progress>
+                </div>    
+            </article>
+
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
+                <img class="icon" src="img/ico_css3.png" alt="Logo CSS3 em pixel art">
+                <div class="right">
+                    <h3 class="title">CSS</h3> <!-- description title -->           
+                    <progress class="progress-bar" max="100" value="30">
+                        30%
+                    </progress>
+                </div>    
+            </article>
+
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
+                <img class="icon js" src="img/ico_js.png" alt="Logo JavaScript em pixel art">
+                <div class="right">
+                    <h3 class="title">JavaScript</h3> <!-- description title -->           
+                    <progress class="progress-bar" max="100" value="30">
+                        30%
+                    </progress>
+                </div>    
+            </article>
+
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
+                <img class="icon python" src="img/ico_python.png" alt="Logo Python em pixel art">
+                <div class="right">
+                    <h3 class="title">Python</h3> <!-- description title -->           
+                    <progress class="progress-bar" max="100" value="30">
+                        30%
+                    </progress>
+                </div>    
+            </article>
+        </div>
+        <div class="text-skill">
+            <p>Comecei estudando <strong>Python</strong> pelo Curso em Vídeo e estou concluindo o terceiro módulo que ensina sobre listas, tuplas, funções e dicionário. Estudo <strong>HTML</strong> e <strong>CSS</strong> pelo mesmo curso e também pelo curso do Marco Bruno, onde estou aprendendo a desenvolver este site. Tive meu primeiro contato com <strong>JavaScript</strong> na Imersão Dev, feito pela Alura, onde aprendi os principais conceitos da linguagem. </p>
+        </div>
     </section>
 </body>
 </html>
