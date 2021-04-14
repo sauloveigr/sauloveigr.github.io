@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/components/icon.css">   
+    <link rel="stylesheet" href="css/components/logo.css">   
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/action.css">
     <link rel="stylesheet" href="css/components/banner.css">
@@ -22,11 +22,12 @@
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/section.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
     
 </head>
 <body class="body">
     <header class="header">
-        <img class="icon" src="assets/img/logo.jpg" alt="Logo Saulo Veiga">
+        <img class="logo" src="assets/img/logo.jpg" alt="Logo Saulo Veiga">
         
         <nav class="navigation">
             <a class="action" href="" lang="en">Skills</a>
@@ -52,17 +53,15 @@
     <section class="section">
         <h2 class="main-title -second">Skills</h2> <!-- -second = variação de um componente (title) -->
 
-        <dl class="skill-tec"> <!-- description list -->
-            <dt class="title">HTML</dt> <!-- description title -->
-            <dd class="icon"> <!-- define description -->
-                <img src="img/ico_html5.png" alt="Logo HTML5 em pixel art">
-            </dd> 
-            <dd  class="bar">
-                <progress value="30" max="100"> <!-- barra de progresso -->
+        <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
+            <img class="icon" src="img/ico_html5.png" alt="Logo HTML5 em pixel art">
+            <div class="right">
+                <h3 class="title">HTML</h3> <!-- description title -->           
+                <progress class="progress-bar" max="100" value="30">
                     30%
                 </progress>
-            </dd>
-        </dl>
+            </div>    
+        </article>
     </section>
 </body>
 </html>
