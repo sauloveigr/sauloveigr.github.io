@@ -1,0 +1,34 @@
+.projects-section {
+    height: 520px;
+    background-color: black;
+    border-bottom: 10px solid #82F5B2; 
+}
+
+.projects-section .main-title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projects-section .logo-home {
+    box-shadow: 10px 10px 0 white;
+    transition: transform 100ms linear;
+}
+
+.logo-home:hover, .logo-alura:hover {
+    transform: scale(1.03);
+}
+
+.projects-section .logo-alura {
+    box-shadow: 10px 10px 0 white;
+    transition: transform 100ms linear;
+    width: 280px;
+    height: 280px;
+}
+
+.projects {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
