@@ -1,4 +1,4 @@
-.title-box {
+.main-box {
     background-color: #465162;
     display: inline-block;
     box-shadow: 10px 10px 0 black;
@@ -6,7 +6,7 @@
     padding: 42px 44px;
 }
 
-.title-box .main-title {  /* espaço - pegar todos os filhos h1 dentro de box */
+.main-box .main-title {  /* espaço - pegar todos os filhos h1 dentro de box */
     margin-bottom: 28px;
 }
 
