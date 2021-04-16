@@ -1,4 +1,4 @@
-.button {
+.main-button {
     background-color: #82F5B2;
     display: inline-block;   /* permite mexer na altura e largura  */
     padding: 20px;   /* "enchimento" - bordas internas */   
@@ -13,6 +13,6 @@
     text-decoration: none;
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.03);
 }
