@@ -1,34 +1,37 @@
 .projects-section {
     height: 520px;
     background-color: black;
-    border-bottom: 10px solid #918EF4; 
+    border-bottom: 10px solid #918EF4;
 }
 
 .projects-section .main-title {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    color: white;
 }
 
-.projects-section .logo-home {
+.projects-section .logo {
     box-shadow: 10px 10px 0 white;
     transition: transform 100ms linear;
+    margin-bottom: 15px;
 }
 
-.logo-home:hover, .logo-alura:hover {
+.logo:hover {
     transform: scale(1.03);
 }
 
-.projects-section .logo-alura {
-    box-shadow: 10px 10px 0 white;
-    transition: transform 100ms linear;
-    width: 280px;
-    height: 280px;
-}
-
-.projects {
+.wrapper-projects {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
     display: flex;
     justify-content: space-between;
+}
+
+.projects-section .caption {
+    color: white;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
 }
