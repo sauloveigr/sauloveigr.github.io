@@ -1,4 +1,4 @@
-.menu-action {
+.main-action {
     display: inline-flex;   /* colocar um do lado do outro*/
     align-items: center;   /* centralizar na vertical */
     font-family: 'Fira Code', Arial, Helvetica, sans-serif; 
@@ -11,7 +11,7 @@
     font-size: 20px;
 }
 
-.menu-action::before {  /* pseudo elemento - before/after - usar antes ou depois da tag. quadrado. */
+.main-action::before {  /* pseudo elemento - before/after - usar antes ou depois da tag. quadrado. */
     content: "";  
     background-color: #82F5B2;
     width: 10px;
@@ -19,6 +19,6 @@
     margin-right: 10px;
 }
 
-.menu-action:hover {
+.main-action:hover {
     transform: translateY(-2px);
 }
