@@ -1,4 +1,4 @@
-.home-banner {
+.main-banner {
     background-image: url(/assets/img/papel1.jpg);
     box-sizing: border-box;
     background-repeat: no-repeat;
@@ -9,17 +9,17 @@
     padding-top: 100px;
 }
 
-.home-banner .wrapper {
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 630px;
 }
 
-.home-banner .title-box {
+.main-banner .title-box {
     margin-bottom: 40px;
 }
 
-.home-banner .navigation {
+.main-banner .navigation {
     display: flex;
     justify-content: space-around;
 }
