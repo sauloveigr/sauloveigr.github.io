@@ -24,8 +24,8 @@
 }
 
 .node-card .logo {
-    display: flex;   /* alinhar horizontal */
-    align-items: center;  /* alinhar horizontal */
+    display: flex;
+    align-items: center;
     height: 140px;
     padding-left: 20px;
     padding-right: 20px;

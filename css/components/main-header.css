@@ -1,8 +1,8 @@
 .main-header {
     display: flex;
-    justify-content: space-between;   /* coloca nas extremidades */
+    justify-content: space-between;
     background-color: #918EF4;
-    border-bottom: 10px solid black;   /* borda inferior */
+    border-bottom: 10px solid black;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;

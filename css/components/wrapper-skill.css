@@ -12,7 +12,7 @@
     margin-bottom: 50px;
 }   
 
-.wrapper-skill .skill-tec:nth-child(odd) {  /* enézimo termo. pega apenas os ímpares. odd -ímpar; even - par */
+.wrapper-skill .skill-tec:nth-child(odd) {
     margin-right: 100px;
 }
 

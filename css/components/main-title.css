@@ -5,7 +5,7 @@
     text-shadow: 4px 4px 0 black;
 }
 
-.main-title.-second {  /* sem espaço, pois espaço é seletor filho. sem espaço = pegas elemento com as duas classes */
+.main-title.-second {
     color: black;
     text-shadow: none;
     text-align: center;

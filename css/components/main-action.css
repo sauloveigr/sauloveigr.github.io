@@ -1,17 +1,17 @@
 .main-action {
-    display: inline-flex;   /* colocar um do lado do outro*/
-    align-items: center;   /* centralizar na vertical */
+    display: inline-flex;
+    align-items: center;
     font-family: 'Fira Code', Arial, Helvetica, sans-serif; 
-    font-weight: 500;   /* bold - peso da fonte */
-    text-decoration: none;   /* tirar sublinhado */ 
-    margin-right: 30px;   /* espaçamento entre palavras(cada <a>) - respiro externo */
-    margin-bottom: 10px;  /* espaçamento entre palavras(cada <a>) - respiro externo */ 
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-bottom: 10px;
     transition: transform 100ms linear;  
     color: white;
     font-size: 20px;
 }
 
-.main-action::before {  /* pseudo elemento - before/after - usar antes ou depois da tag. quadrado. */
+.main-action::before {
     content: "";  
     background-color: #82F5B2;
     width: 10px;
