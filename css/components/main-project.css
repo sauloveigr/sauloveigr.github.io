@@ -1,0 +1,38 @@
+.main-project {
+    height: 500px;
+    background-color: black;
+    border-bottom: 10px solid #82F5B2;
+    padding-top: 50px;
+   
+}
+
+.main-project .main-title { 
+    padding-bottom: 60px;
+    color: white;
+}
+
+.main-project .card {
+    box-shadow: 10px 10px 0 white;
+    transition: transform 100ms linear;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.wrapper-projects {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-project .caption {
+    color: white;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}

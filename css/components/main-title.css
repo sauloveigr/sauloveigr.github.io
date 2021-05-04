@@ -5,17 +5,15 @@
     text-shadow: 4px 4px 0 black;
 }
 
-.main-title.-second {
+.main-title.-second {  /* sem espaço, pois espaço é seletor filho. sem espaço = pegas elemento com as duas classes */
     color: black;
     text-shadow: none;
     text-align: center;
-    padding-top: 50px;
 }
 
 .main-title.-third {
     color: white;
     text-shadow: none;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    
 }

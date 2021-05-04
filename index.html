@@ -19,20 +19,22 @@
     <link rel="stylesheet" href="css/components/main-title.css">   
     <link rel="stylesheet" href="css/components/main-subtitle.css">
     <link rel="stylesheet" href="css/components/main-box.css">
-    <link rel="stylesheet" href="css/components/skill-section.css">
+    <link rel="stylesheet" href="css/components/main-skill.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/text-skill.css">
-    <link rel="stylesheet" href="css/components/projects-section.css">
+    <link rel="stylesheet" href="css/components/main-project.css">
     <link rel="stylesheet" href="css/components/about-section.css">
     <link rel="stylesheet" href="css/components/about-text.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
-    <link rel="stylesheet" href="css/components/main-contact.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
     <link rel="stylesheet" href="css/components/wrapper-contact.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
     
 </head>
 <body class="body">
@@ -48,9 +50,9 @@
         </nav>
     </header>
     <section class="banner-section">
-        <div class="wrapper">
+        <div class="wrapper"> <!-- div para "embrulhar"/envolver -->
             <div class="main-box">
-                <h1 class="main-title">Saulo Veiga</h1>
+                <h1 class="main-title">Saulo Veiga</h1> <!-- heading 1 -->
                 <h2 class="main-subtitle">FrondEnd Developer</h2>
             </div>
             <div class="navigation">
@@ -60,44 +62,44 @@
         </div>
     </section>
 
-    <section class="skill-section">
-        <h2 class="main-title -second">Skills</h2>
+    <section class="main-skill">
+        <h2 class="main-title -second">Skills</h2> <!-- -second = variação de um componente (title) -->
 
-        <div class="wrapper-skill">
-            <article class="skill-tec">
+        <div class="wrapper-skill"> <!-- envolver skills -->
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
                 <img class="icon" src="assets/ico_html5.png" alt="Logo HTML5 em pixel art">
                 <div class="right">
-                    <h3 class="title">HTML</h3>           
+                    <h3 class="title">HTML</h3> <!-- description title -->           
                     <progress class="progress-bar" max="100" value="30">
                         30%
                     </progress>
                 </div>    
             </article>
 
-            <article class="skill-tec">              
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
                 <img class="icon" src="assets/ico_css3.png" alt="Logo CSS3 em pixel art">
                 <div class="right">
-                    <h3 class="title">CSS</h3>       
+                    <h3 class="title">CSS</h3> <!-- description title -->           
                     <progress class="progress-bar" max="100" value="30">
                         30%
                     </progress>
                 </div>    
             </article>
 
-            <article class="skill-tec">            
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
                 <img class="icon js" src="assets/ico_js.png" alt="Logo JavaScript em pixel art">
                 <div class="right">
-                    <h3 class="title">JavaScript</h3>           
+                    <h3 class="title">JavaScript</h3> <!-- description title -->           
                     <progress class="progress-bar" max="100" value="30">
                         30%
                     </progress>
                 </div>    
             </article>
 
-            <article class="skill-tec">             
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
                 <img class="icon python" src="assets/ico_python.png " alt="Logo Python em pixel art">
                 <div class="right">
-                    <h3 class="title">Python</h3>           
+                    <h3 class="title">Python</h3> <!-- description title -->           
                     <progress class="progress-bar" max="100" value="30">
                         30%
                     </progress>
@@ -107,7 +109,7 @@
         <p class="text-skill">Comecei estudando <strong>Python</strong> pelo Curso em Vídeo e estou concluindo o terceiro módulo, que ensina sobre listas, tuplas, funções e dicionário. Estudo <strong>HTML</strong> e <strong>CSS</strong> pelo mesmo curso e também pelo curso do Marco Bruno, onde estou aprendendo a desenvolver este site. Tive meu primeiro contato com <strong>JavaScript</strong> na Imersão Dev, feito pela Alura, onde aprendi os principais conceitos da linguagem. </p>
     </section>
 
-    <section class="projects-section">
+    <section class="main-project">
         <h2 class="main-title -second">Projetos</h2>
 
         <div class="wrapper-projects">
@@ -181,30 +183,27 @@
 
     </section>
 
-    <form action="https://sauloveigr.github.io/confirmation" method="post" class="main-contact">
+    <form action="https://api.staticforms.xyz/submit" method="post" class="main-form">
         <input type="hidden" name="accessKey" value="88dbd757-8a6e-4754-994e-30d619646671">
         <h1 class="main-title -third">Contatos</h1>
-        <div class="wrapper-contact">
-            <label class="label" for="name">Nome:</label>
-            <input type="text" id="inputName" name="name" placeholder="Digite seu nome" required maxlength="25" minLength="2">
+            <label class="main-label" for="name">Nome</label> <!-- Descrever input -->
+            <input class="main-input" type="text" id="name" name="name" placeholder="Digite seu nome" required maxlength="25" minLength="2">
 
-            <label class="label" for="email" aria-placeholder="">Email:</label>
-            <input type="email" id="inputEmail" name="email" placeholder="Digite seu e-mail" required maxlength="50">
+            <label class="main-label" for="email" aria-placeholder="">Email</label>
+            <input class="main-input" type="email" id="email" name="email" placeholder="Digite seu e-mail" required maxlength="50">
 
-            <label class="label" for="message">Mensagem:</label>
-            <textarea id="inputText" name="message" required maxlength="100" placeholder="Digite sua mensagem"></textarea>
-        </div>
-        <button class="main-button -second">Enviar</button>
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea class="main-input -textArea" id="message" name="message" required maxlength="100"></textarea>
+
+            <button type="submit" class="main-button -second">Enviar</button>
     </form>
     
 
     <footer class="main-footer">
-            <a class="social" href="https://www.linkedin.com/in/sauloveigr/" target="_blank" rel="external">
-                <img class="logo -footer"  src="assets/linkedin-ico.png" alt="linkedin logo">
-            </a>
-            <a class="social" href="https://github.com/sauloveigr" target="_blank" rel="external">
-                <img class="logo -footer"  src="assets/github-ico.png" alt="github logo">
-            </a>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/sauloveigr/" target="_blank" rel="external"><img class="logo -footer"  src="assets/linkedin-ico.png" alt="linkedin logo"></a>
+            <a href="https://github.com/sauloveigr" target="_blank" rel="external"><img class="logo -footer"  src="assets/github-ico.png" alt="github logo"></a>
+        </div>
     </footer>
         
     <script src="js/main-carousel.js"></script>
