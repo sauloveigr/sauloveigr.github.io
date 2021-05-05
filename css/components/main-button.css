@@ -1,10 +1,10 @@
 .main-button {
     background-color: #82F5B2;
-    display: inline-block;   /* permite mexer na altura e largura  */
-    padding: 20px;   /* "enchimento" - bordas internas */   
-    box-shadow: 5px 5px 0 black;   /* direita (x), baixo (y), blur e cor */
-    margin-right: 0;    /* tira a margem apenas do botão */
-    margin-bottom: 0;   /* tira a margem apenas do botão */
+    display: inline-block;
+    padding: 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 0;
+    margin-bottom: 0;
     transition: transform 100ms linear;
     color: #201F36;
     font-size: 20px;

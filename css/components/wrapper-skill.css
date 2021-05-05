@@ -1,7 +1,7 @@
 .wrapper-skill {
     display: flex;
-    flex-wrap: wrap; /* envolver */
-    max-width: 960px; /* responsividade. no max 960px */
+    flex-wrap: wrap;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
@@ -12,7 +12,7 @@
     margin-bottom: 50px;
 }   
 
-.wrapper-skill .skill-tec:nth-child(odd) {  /* enézimo termo. pega apenas os ímpares. odd -ímpar; even - par */
+.wrapper-skill .skill-tec:nth-child(odd) {
     margin-right: 100px;
 }
 
