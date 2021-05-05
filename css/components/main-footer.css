@@ -1,5 +1,5 @@
 .main-footer {
-    height: 60px;
+    height: 70px;
     width: 100%;
     background-color: black;
     display: flex;
@@ -7,8 +7,8 @@
 }
 
 .main-footer .logo.-footer {
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
 }
 
 .main-footer .social {
