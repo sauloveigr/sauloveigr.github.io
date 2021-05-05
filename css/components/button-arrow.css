@@ -6,6 +6,7 @@
     box-shadow: 5px 5px 0px black;
     position: absolute;
     top: 275px;
+    transition: transform 100ms linear;
 }
 
 .button-arrow.-right {    
@@ -27,4 +28,8 @@
     top: 50%;  
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.button-arrow:hover {
+    transform: scale(1.02);
 }
