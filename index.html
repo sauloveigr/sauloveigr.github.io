@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/text-skill.css">
     <link rel="stylesheet" href="css/components/main-project.css">
-    <link rel="stylesheet" href="css/components/about-section.css">
+    <link rel="stylesheet" href="css/components/main-about.css">
     <link rel="stylesheet" href="css/components/about-text.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
@@ -42,10 +42,10 @@
         <img src="assets/logo.jpg" alt="Logo Saulo Veiga">
         
         <nav class="navigation">
-            <a class="main-action" href="" lang="en">Skills</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
+            <a class="main-action" href="#main-skill" lang="en">Skills</a>
+            <a class="main-action" href="#main-project">Projetos</a>
+            <a class="main-action" href="#main-about">Sobre</a>
+            <a class="main-action" href="#main-form">Contatos</a>
             <a class="main-button" href="Currículo.pdf" download="Currículo.pdf" type=application/pdf lang="en">Download CV</a>
         </nav>
     </header>
@@ -62,7 +62,7 @@
         </div>
     </section>
 
-    <section class="main-skill">
+    <section class="main-skill" id="main-skill">
         <h2 class="main-title -second">Skills</h2> 
 
         <div class="wrapper-skill"> 
@@ -109,7 +109,7 @@
         <p class="text-skill">Comecei estudando <strong>Python</strong> pelo Curso em Vídeo e estou concluindo o terceiro módulo, que ensina sobre listas, tuplas, funções e dicionário. Estudo <strong>HTML</strong> e <strong>CSS</strong> pelo mesmo curso e também pelo curso do Marco Bruno, onde estou aprendendo a desenvolver este site. Tive meu primeiro contato com <strong>JavaScript</strong> na Imersão Dev, feito pela Alura, onde aprendi os principais conceitos da linguagem. </p>
     </section>
 
-    <section class="main-project">
+    <section class="main-project" id="main-project">
         <h2 class="main-title -second">Projetos</h2>
 
         <div class="wrapper-projects">
@@ -131,7 +131,7 @@
 
     </section>
 
-    <section class="about-section">
+    <section class="main-about" id="main-about">
         
         <h2 class="main-title -second">Sobre</h2>
          
@@ -188,7 +188,7 @@
 
     </section>
 
-    <form action="https://api.staticforms.xyz/submit" method="post" class="main-form">
+    <form action="https://api.staticforms.xyz/submit" method="post" class="main-form" id="main-form">
         <input type="hidden" name="accessKey" value="88dbd757-8a6e-4754-994e-30d619646671">
         <h1 class="main-title -third">Contatos</h1>
             <label class="main-label" for="name">Nome</label> 
