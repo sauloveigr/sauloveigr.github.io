@@ -1,0 +1,1 @@
+const btnScroll = document.querySelector('#main-scroll');
