@@ -4,6 +4,7 @@
     padding-left: 80px;
     padding-right: 80px;
     overflow: hidden;
+    margin-bottom: 100px;
 }
 
 .main-carousel::after {
