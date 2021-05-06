@@ -1,0 +1,12 @@
+.confirmation-box {
+    background-color: #465162;
+    display: inline-block;
+    box-shadow: 10px 10px 0 black;
+    text-align: center;
+    padding: 42px 44px;
+}
+
+.confirmation-box .main-title {
+    color: white;
+    margin-bottom: 50px;
+}
