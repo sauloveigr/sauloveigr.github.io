@@ -1,9 +1,8 @@
 .main-project {
-    height: 500px;
+    height: 93vh;
     background-color: black;
     border-bottom: 10px solid #82F5B2;
     padding-top: 50px;
-    
 }
 
 .main-project .main-title { 
