@@ -7,3 +7,7 @@
     margin-right: 80px;
     max-width: 1200px;   
 }
+
+.text-skill .bold {
+    font-weight: 500;
+}
