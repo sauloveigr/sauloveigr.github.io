@@ -3,7 +3,11 @@
     display: inline-block;
     box-shadow: 10px 10px 0 black;
     text-align: center;
-    padding: 42px 44px;
+    padding-bottom: 20px;
+    padding-top: 42px;
+    padding-right: 44px;
+    padding-left: 44px;
+    width: 700px;
 }
 
 .confirmation-box .main-title {

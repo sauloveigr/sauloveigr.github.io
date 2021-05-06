@@ -1,6 +1,5 @@
 .main-confirmation {
     background-image: url(/img/logo_fundo.png);
-    background-color: #918EF4; 
     height: 100vh;
     position: relative; 
 }
@@ -22,6 +21,7 @@
     outline: none;
     width: 200px;
     border: none;
+    outline: none;
 }
 
 .main-box .main-title {
