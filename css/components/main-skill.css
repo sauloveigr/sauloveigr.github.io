@@ -4,4 +4,6 @@
     border-bottom: 10px solid #918EF4;
     height: 100vh; 
     padding-top: 50px; 
+    width: 100%;
+    box-sizing: border-box;
 }

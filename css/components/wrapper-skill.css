@@ -4,17 +4,7 @@
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 8.0rem;
+    margin-bottom: 8.0rem;
+    justify-content: space-between;
 }
-
-.wrapper-skill .skill-tec {
-    width: 430px;
-    margin-bottom: 50px;
-}   
-
-.wrapper-skill .skill-tec:nth-child(odd) {
-    margin-right: 100px;
-}
-
-
-

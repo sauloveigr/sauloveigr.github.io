@@ -1,21 +1,21 @@
 .main-project {
     height: 93vh;
     background-color: black;
-    border-bottom: 10px solid #82F5B2;
-    padding-top: 50px;
+    border-bottom: 1.0rem solid #82F5B2;
+    padding-top: 5.0rem;
+    width: 100%;
 }
 
 .main-project .main-title { 
-    padding-bottom: 60px;
     color: white;
 }
 
 .main-project .card {
-    box-shadow: 10px 10px 0 white;
+    box-shadow: 1.0rem 1.0rem white;
     transition: transform 100ms linear;
-    margin-bottom: 15px;
-    width: 280px;
-    height: 280px;
+    margin-bottom: 1.5rem;
+    width: 28rem;
+    height: 28rem;
     background-color: #465162;
 }
 
@@ -23,18 +23,11 @@
     transform: scale(1.03);
 }
 
-.wrapper-projects {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
 
 .main-project .caption {
     color: white;
     font-family: 'Fira Code', Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 2.0rem;
     text-align: center;
 }
 
