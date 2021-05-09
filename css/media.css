@@ -1,0 +1,51 @@
+html {
+    /* a cada 1rem será considerado 10 pixels */
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+/* media queries */  
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 45%;
+    }
+
+    section.banner-section {
+        padding-left: 12rem;
+        padding-top: 16rem;
+    }
+
+    section.banner-section div.wrapper {
+        width: 65.6rem;
+    }
+
+    section.main-skill div.wrapper-skill {
+        width: 108rem;
+        margin-top: 12rem;
+        margin-bottom: 10rem;
+    }
+
+    section.main-skill p.text-skill {
+        font-size: 3.3rem;
+    }
+
+    section.main-project div.project-text {
+        font-size: 3.5rem;
+        line-height: 9.0rem;
+    }
+
+    p.about-text {
+        font-size: 3.3rem;
+        text-align: justify;
+        margin-top: 13rem;
+    }
+}
