@@ -1,0 +1,47 @@
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #465162;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    text-align: justify;
+    align-items: center;
+    color: #82F5B2;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 735px;
+    box-shadow: 10px 10px 0px black;
+}
+
+.contact-box .main-button {
+    margin-top: 5px;
+    width: 200px;;
+}
+
+.contact-box .media {
+    width: 35px;
+    height: 35px;
+    padding-right: 15px;
+}
+
+.contact-box .list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-box .link {
+    color: #82F5B2;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.contact-box .contact {
+    margin-right: 10px;
+    color: #918EF4;
+    font-weight: 500;
+}
