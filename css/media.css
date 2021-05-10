@@ -8,24 +8,18 @@ body {
 }
 
 /* media queries */  
-@media (max-width: 768px) {
+
+@media only screen and (max-width: 1199.98px) {
     html {
-        font-size: 45%;  
+        font-size: 50%;
     }
 
-    section.banner-section {
-        background-color: #918EF4;
-    }
+    /*
+    MAIN TITLE
+    */
 
-    section.banner-section div.wrapper {
-        width: 61vw;
-    }
-    
-}
-
-@media (max-width: 1024px) {
-    html {
-        font-size: 45%;
+    h2.main-title.-second {
+        font-size: 5rem;
     }
 
     /*
@@ -34,8 +28,8 @@ body {
 
     section.banner-section {
         padding-top: 16rem;
-        background-position-x: -32rem;
-        height: 90.5vh;
+        background-position-x: 60%;
+        height: 92.5vh;
     }
 
     /*
@@ -44,8 +38,8 @@ body {
 
     section.main-skill div.wrapper-skill {
         width: 108rem;
-        margin-top: 12rem;
-        margin-bottom: 10rem;
+        margin-top: 15rem;
+        margin-bottom: 15rem;
     }
 
     section.main-skill p.text-skill {
@@ -79,7 +73,7 @@ body {
     }
 
     section.main-about div.elements {
-        margin-top: 1.2rem;
+        margin-top: 4.2rem;
     }
 
     section.main-about .button-arrow {
@@ -107,12 +101,184 @@ body {
     }
 
     form.main-form .main-title {
-        padding-bottom: 6.0rem;
-        margin-bottom: 5.5rem;
+        margin-bottom: 12rem;
     }
 
     form.main-form .main-button {
         margin-top: 4rem;
     }
+
+}
+
+@media only screen and (max-width: 991.98px) {
+    html {
+        font-size: 45%;  
+    }
+
+    /*
+    BANNER SECTION
+    */
+    
+    section.banner-section  {
+        background-position-y: bottom;
+    }
+
+    section.banner-section div.wrapper {
+        width: 60vw;
+    }
+
+    section.banner-section .main-box {
+        padding: 4.2rem 3.4rem;
+    }
+    
+    
+    /*
+    MAIN SKILL
+    */
+
+    section.main-skill div.wrapper-skill {
+        width: 110rem;
+    }
+
+    /*
+    MAIN ABOUT
+    */
+
+    section.main-about div.elements {
+        margin-top: 4.2rem;
+    }
+
+    /*
+    MAIN FORM
+    */
+
+    form.main-form .main-title {
+        margin-top: 6rem;
+        margin-bottom: 12rem;
+    }
+
+    form.main-form .main-button {
+        font-size: 5rem;
+    }
+
+    form.main-form {
+        height: 91vh;   
+    }
+
+    input.main-input {
+        height: 10rem;
+    }
+
+    textarea.main-input.-textArea {
+        height: 40rem;
+    }
+   
+}
+
+@media only screen and (max-width: 799.98px) {
+
+    html {
+        font-size: 45%;  
+    }
+
+    /*
+    MAIN BANNER
+    */
+
+    section.banner-section div.wrapper {
+        width: 61rem;
+    }
+
+    /*
+    MAIN SKILL 
+    */
+
+    section.main-skill div.wrapper-skill {
+        display: flex;
+        flex-direction: column;
+        width: 48.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 679.98px) {
+
+    /*
+    MAIN HEADER
+    */ 
+
+    header.main-header .main-button {
+        display: none;
+        visibility: hidden;
+    }
+
+    header.main-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header.main-header nav.navigation {
+        height: 2.2rem;
+        
+    }
+
+    header.main-header a.main-action {
+        font-size: 2.5rem;
+    }
+
+    /*
+    MAIN SKILL
+    */
+
+    section.main-skill p.text-skill {
+        font-size: 3.5rem;
+    }
+
+    /*
+    MAIN PROJECTS 
+    */ 
+
+    section.main-project div.wrapper-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    figure.figure {
+        margin-bottom: 2rem;
+    }
+
+    section.main-project div.project-text {
+        font-size: 3rem;
+        line-height: 6rem;
+        margin-top: 5rem;
+    }
+
+    /*
+    MAIN ABOUT 
+    */
+
+    section.main-about p.about-text {
+        margin-top: 24rem;
+    }
+
+    .main-carousel {
+        display: none;
+        visibility: visible;
+    }
+
+    button.button-arrow {
+        display: none;
+        visibility: visible;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
 
 }

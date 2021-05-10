@@ -1,6 +1,6 @@
 .main-about .button-arrow {
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     background-color: #82F5B2;
     cursor: pointer;  /* cursor muda quando passa o mouse em cima */
     box-shadow: 5px 5px 0px black;
@@ -10,11 +10,11 @@
 }
 
 .button-arrow.-right {    
-    right: 20px;
+    right: 2rem;
 }
 
 .button-arrow.-left {
-    left: 20px;
+    left: 2rem
 }
 
 .button-arrow .content {
@@ -22,8 +22,8 @@
 }
 
 .button-arrow .arrow {
-    width: 33px;
-    height: 33px;
+    width: 3.3rem;
+    height: 3.3rem;
     position: absolute;
     top: 50%;  
     left: 50%;
