@@ -280,11 +280,16 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+
+    html {
+        font-size: 50%;
+    }
+
     /*
     MAIN HEADER
     */
     header.main-header {   
-        height: 19rem;
+        height: 16rem;
         justify-content: center;
         align-items: center;
     }
@@ -301,6 +306,7 @@ body {
     header.main-header nav.navigation a {
         margin: 0;
         padding: 0.5rem 2rem;
+        font-size: 2rem;
     }
 
     header.main-header img{
@@ -311,9 +317,24 @@ body {
     /*
     BANNER SECTION
     */
+    section.banner-section {
+        height: 83vh;
+    }
 
     section.banner-section div.wrapper {
         width: 70%;
+    }
+
+    section.banner-section h1 {
+        font-size: 2rem;
+    }
+
+    section.banner-section h2 {
+        font-size: 1rem;
+    }
+
+    section.banner-section .main-button {
+        font-size: 1rem;
     }
 
     /*
