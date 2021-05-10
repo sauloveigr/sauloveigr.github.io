@@ -1,7 +1,8 @@
 base {
     --color-first: #82F5B2;
-    --color-first: #918EF4;
-    --color-first: #201F36;
+    --color-second: #918EF4;
+    --color-third: #201F36;
+    --color-fourth: #85BFFA;
 }
 
 blacks {
