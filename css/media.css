@@ -285,7 +285,6 @@ body {
     */
     header.main-header {   
         height: 19rem;
-        padding: 5rem;
         justify-content: center;
         align-items: center;
     }
