@@ -305,7 +305,7 @@ body {
 
     header.main-header nav.navigation a {
         margin: 0;
-        padding: 0.1rem 0.8rem;
+        padding: 0.1rem 0.5rem;
         font-size: 1.4rem;
         
     }
@@ -326,7 +326,7 @@ body {
         background-size: 120%;
         background-repeat: no-repeat;
         background-position-y: 90%;
-        background-position-x: 70%;
+        background-position-x: 75%;
     }
 
     section.banner-section .main-box {
