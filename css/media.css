@@ -12,6 +12,15 @@ body {
     html {
         font-size: 45%;  
     }
+
+    section.banner-section {
+        background-color: #918EF4;
+    }
+
+    section.banner-section div.wrapper {
+        width: 61vw;
+    }
+    
 }
 
 @media (max-width: 1024px) {
