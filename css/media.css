@@ -318,11 +318,24 @@ body {
     BANNER SECTION
     */
     section.banner-section {
+        background-image: url(../img/home-mobile2.png);
         height: 83vh;
+        padding-top: 4rem;
+        padding-left: 1rem;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
+    section.banner-section .main-box {
+        padding: 2.2rem 2.4rem;
+        width: 35vh;
+    }
+
+
     section.banner-section div.wrapper {
-        width: 70%;
+        width: 41vh;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     section.banner-section h1 {
