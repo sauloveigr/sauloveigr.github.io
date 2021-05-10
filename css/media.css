@@ -280,5 +280,43 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+    /*
+    MAIN HEADER
+    */
+    header.main-header {   
+        height: 10rem;
+        padding: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
 
+    
+
+    header.main-header nav.navigation a {
+        padding: 1rem;
+    }
+
+    header.main-header img{
+        display: none;
+        visibility: hidden;
+    }
+
+    /*
+    BANNER SECTION
+    */
+
+    section.banner-section div.wrapper {
+        width: 70%;
+    }
+
+    /*
+    MAIN ABOUT
+    */
+
+    section.main-about p.about-text {
+        margin-top: 24rem;
+        margin-top: 10rem;
+        font-size: 2rem;
+        text-align: left;
+    }
 }
