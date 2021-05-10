@@ -290,7 +290,7 @@ body {
     */
     header.main-header {  
         width: 100%; 
-        height: 8vh;
+        height: 10vh;
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -305,7 +305,7 @@ body {
 
     header.main-header nav.navigation a {
         margin: 0;
-        padding: 0.1rem 0.5rem;
+        padding: 0.1rem 0.8rem;
         font-size: 2rem;
         
     }
