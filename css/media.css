@@ -288,7 +288,8 @@ body {
     /*
     MAIN HEADER
     */
-    header.main-header {   
+    header.main-header {  
+        width: 100%; 
         height: 8rem;
         justify-content: center;
         align-items: center;
