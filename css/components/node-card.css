@@ -9,10 +9,10 @@
     content: '';
     position: absolute;
     box-sizing: border-box;
-    height: 0px;
-    width: 40px;
-    border-top: 4px dashed black;
-    transform: rotate(90deg) translateX(55px);
+    height: 0rem;
+    width: 4.0rem;
+    border-top: 0.4rem dashed black;
+    transform: rotate(90deg) translateX(5.5rem);
 }
 
 .node-card .title {
@@ -20,17 +20,17 @@
     color: #82F5B2;
     font-weight: 400;
     font-size: 2.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 5.0rem;
 }
 
 .node-card .logo {
     display: flex;
     align-items: center;
-    height: 140px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: 14.0rem;
+    padding-left: 2.0rem;
+    padding-right: 2.0rem;
     background-color: #465162;
-    border: 5px solid black;
+    border: 0.5rem solid black;
     box-sizing: border-box;
 }
 
@@ -41,4 +41,10 @@
 
 .node-card.-first .logo {
     background-color: #F25A70;
+}
+
+
+.node-card img {
+    width: 10rem;
+    height: 10rem;
 }
