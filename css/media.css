@@ -305,7 +305,7 @@ body {
 
     header.main-header nav.navigation a {
         margin: 0;
-        padding: 0.1rem 0.8rem;
+        padding: 0.1rem 1.2rem;
         font-size: 2rem;
         
     }
@@ -320,7 +320,7 @@ body {
     */
     section.banner-section {
         background-image: url(../img/home-mobile-3.png);
-        height: 82vh;
+        height: 84vh;
         padding-top: 3rem;
         padding-left: 1rem;
         background-size: 120%;
