@@ -318,6 +318,7 @@ body {
     /*
     BANNER SECTION
     */
+
     section.banner-section {
         background-image: url(../img/home-mobile-3.png);
         height: 84vh;
@@ -334,7 +335,6 @@ body {
         width: 45vh;
         margin-bottom: 3rem;
     }
-
 
     section.banner-section div.wrapper {
         width: 51.5vh;
@@ -357,6 +357,10 @@ body {
     /*
     MAIN SKILL
     */ 
+
+    .main-skill {
+        padding-top: 3rem;
+    }
     h2.main-title.-second {
         font-size: 3rem;
     }
@@ -393,7 +397,7 @@ body {
     }
 
     section.main-skill p.text-skill {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     /*
