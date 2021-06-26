@@ -13,13 +13,13 @@
 }
 
 .main-box {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .main-button {
     font-family: 'Fira Code', Arial, Helvetica, sans-serif;
     outline: none;
-    width: 200px;
+    width: 12.5rem;
     border: none;
     outline: none;
 }

@@ -5,7 +5,7 @@
     cursor: pointer;  /* cursor muda quando passa o mouse em cima */
     box-shadow: 5px 5px 0px black;
     position: absolute;
-    top: 275px;
+    top: 17.18rem;
     transition: transform 100ms linear;
 }
 

@@ -6,42 +6,42 @@
     text-align: justify;
     align-items: center;
     color: #82F5B2;
-    font-size: 24px;
+    font-size: 1.5rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 735px;
-    box-shadow: 10px 10px 0px black;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    width: 45.93rem;
+    box-shadow: 0.62rem 0.62rem 0px black;
 }
 
 .contact-box .main-button {
     margin-top: 5px;
-    width: 200px;;
+    width: 12.5rem;
 }
 
 .contact-box .media {
-    width: 35px;
-    height: 35px;
-    padding-right: 15px;
+    width: 2.18rem;
+    height: 2.18rem;
+    padding-right: 0.93rem;
 }
 
 .contact-box .list {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.62rem;
 }
 
 .contact-box .link {
     color: #82F5B2;
-    margin-left: 10px;
+    margin-left: 0.62rem;
     text-decoration: none;
 }
 
 .contact-box .contact {
-    margin-right: 10px;
+    margin-right: 0.62rem;
     color: #918EF4;
     font-weight: 500;
 }
